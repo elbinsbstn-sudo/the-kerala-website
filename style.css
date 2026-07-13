@@ -1841,50 +1841,6 @@ padding-left:6px;
 }
 
 /*==============================
-      WHATSAPP BUTTON
-==============================*/
-
-.whatsapp{
-
-position:fixed;
-
-bottom:35px;
-
-right:35px;
-
-width:65px;
-
-height:65px;
-
-background:#25D366;
-
-border-radius:50%;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-font-size:28px;
-
-color:white;
-
-box-shadow:0 15px 35px rgba(0,0,0,.35);
-
-z-index:999;
-
-transition:.35s;
-
-}
-
-.whatsapp:hover{
-
-transform:translateY(-8px) scale(1.08);
-
-}
-
-/*==============================
       SCROLL TO TOP
 ==============================*/
 
@@ -3722,20 +3678,6 @@ transition:.35s ease;
     .gold-line{
 
         width:80px;
-
-    }
-
-    .whatsapp{
-
-        width:58px;
-
-        height:58px;
-
-        right:18px;
-
-        bottom:18px;
-
-        font-size:24px;
 
     }
 
