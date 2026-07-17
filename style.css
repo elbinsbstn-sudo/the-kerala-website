@@ -2369,37 +2369,27 @@ width:100%;
 ==========================================*/
 
 .lightbox{
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.92);
+    backdrop-filter: blur(10px);
 
-    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    inset:0;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;   /* ADD THIS */
 
-    background:rgba(0,0,0,.92);
-
-    backdrop-filter:blur(10px);
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    opacity:0;
-
-    visibility:hidden;
-
-    transition:.45s ease;
-
-    z-index:999999;
-
+    transition: .45s ease;
+    z-index: 999999;
 }
 
 .lightbox.active{
-
-    opacity:1;
-
-    visibility:visible;
-
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;   /* ADD THIS */
 }
 
 .lightbox-img{
