@@ -159,6 +159,8 @@ const nextBtn = document.querySelector(".lightbox-next");
 
 let currentIndex = 0;
 
+if (lightbox) {
+
 // Open Lightbox
 document.querySelectorAll(".gallery-item").forEach((item, index) => {
 
@@ -265,6 +267,8 @@ function closeLightboxFn(){
     progress.style.opacity = "1";
 
     document.body.style.overflow = "auto";
+
+}
 
 }
 
