@@ -2615,21 +2615,17 @@ width:100%;
 =========================== */
 
 .menu-hero{
-
     min-height:55vh;
 
     display:flex;
-
     justify-content:center;
-
     align-items:center;
 
     text-align:center;
 
-    padding:110px 8% 45px;
+    padding:170px 8% 70px;
 
     background:#0b0b0b;
-
 }
 
 .menu-hero-content{
